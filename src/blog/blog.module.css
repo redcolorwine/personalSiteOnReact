@@ -1,0 +1,26 @@
+.blog{
+    color:brown;
+    font-family: consolas;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    height: 100%;
+   
+}
+
+.blogText{
+    margin-top: 5%;
+    text-align: center;
+    width: 70%;
+    padding: 40px;
+    border-radius: 30px;
+}
+.blogImg{
+    
+}
+.blogImg img{
+    width: 600px;
+    height: 450px;
+}

@@ -1,0 +1,30 @@
+.about{
+    color:wheat;
+    color:brown;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 200px; */
+}
+.aboutText{
+    background-color:sandybrown;
+    background-color: blanchedalmond;
+    font-family: consolas;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 35px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+.aboutImg img{
+    width: 600px;
+    height: 700px;
+    border-radius: 30px;
+    border: 3px solid sandybrown;
+    cursor: pointer;
+}
+

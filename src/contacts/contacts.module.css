@@ -1,0 +1,40 @@
+.contacts {
+    width: 100%;
+    height: 100%;
+    color: wheat;
+    color:brown;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContacts {
+    background-color: tomato;
+    background-color: blanchedalmond;
+    font-family: consolas;
+    font-weight: 800;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.mainContacts a {
+    text-decoration: none;
+    color: wheat;
+    color:brown;
+    font-size: 19pt;
+    transition: 0.5s;
+}
+.mainContacts a:hover{
+    color:tomato;
+    font-size: 20pt;
+}
+
+.meImg img {
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    border-radius: 40px;
+}

@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App_wrapper {
+     height: 100%;
+    width: 100%; 
+    /* background-image: url('/src/media/images/seahorse-1768791.jpg');
+    background-size: contain; */
+    display: grid;
+    /* grid-template-columns: 2fr 10fr; */
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: 
+    "h"
+    "m"
+    "f"
+    ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainBlock{
+    grid-area: m;
+    background-image: url('/src/media/images/seahorse-1768791.jpg');
+    background-size: contain;
 }

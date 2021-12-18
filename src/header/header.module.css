@@ -1,0 +1,32 @@
+.header {
+    grid-area: h;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: black;
+}
+
+.navmenu {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navmenu li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 30px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20pt;
+    font-family: consolas;
+    transition: 0.5s;
+}
+
+.header a:hover{
+color:sandybrown;
+}
