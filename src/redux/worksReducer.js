@@ -48,12 +48,12 @@ const workReducer = (state = initialState, action) => {
         case NEXT_ITEMS: {
             switch (action.project) {
                 case 1: {
-                    if (state.currentItems.one === state.works.workOne.length - 1) {
+                    if (state.currentItems.one === state.works.workOne.length-1) {
                         state.currentItems.one = 0;
-                        
+                        debugger;
                         return {
                             ...state,
-                            works:state.works
+                            works:{...state.works}
                             
                             
                         };
@@ -63,7 +63,7 @@ const workReducer = (state = initialState, action) => {
                         debugger;
                         return {
                             ...state,
-                            works:state.works
+                            works:{...state.works}
                           
                         };
                         
@@ -74,14 +74,14 @@ const workReducer = (state = initialState, action) => {
                         state.currentItems.two = 0;
                         return {
                             ...state,
-                            works:state.works
+                            works:{...state.works}
                             
                         };
                     } else {
                         state.currentItems.two++;
                         return {
                             ...state,
-                            works:state.works
+                            works:{...state.works}
                             
                         };
                     }
