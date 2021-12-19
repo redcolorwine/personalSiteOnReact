@@ -25,7 +25,8 @@
 .imgArea img{
     border:3px solid blanchedalmond;
     border-radius: 30px;
-    height: 85%;
+    height: 400px;
+    width: 700px;
 }
 .imgArea button {
     display: block;
