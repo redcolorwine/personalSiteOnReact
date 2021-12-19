@@ -1,0 +1,40 @@
+.workItem {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.textArea {
+    background-color: blanchedalmond;
+    color: brown;
+    font-family: consolas;
+    font-weight: 700;
+    text-align: center;
+    width: 600px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.imgArea {
+    margin-left: 30px;
+    
+    
+}
+.imgArea img{
+    border:3px solid blanchedalmond;
+    border-radius: 30px;
+    height: 85%;
+}
+.imgArea button {
+    display: block;
+    margin: 0 auto;
+    color:brown;
+    background-color: blanchedalmond;
+    font-family: consolas;
+    font-weight: 800;
+    font-size: 17pt;
+    border-radius: 10px;
+    padding: 5px;
+}
