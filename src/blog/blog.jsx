@@ -1,6 +1,7 @@
 import cmedia from './blog.module.css'
 import blogCat from '../media/images/catagirl.png'
 const Blog = (props) => {
+    //Блог пока в разработке, потому пока просто вывод информации
     return (
         <div className={cmedia.blog}>
             <div className={cmedia.blogText}>

@@ -1,6 +1,8 @@
 import cmedia from './about.module.css'
 import me from '../media/images/me.jpg'
 const About = (props) => {
+    // Страница "ОБО МНЕ" 
+    // Просто выводим информацию
     return (
         <div className={cmedia.about}>
             <div className={cmedia.aboutText}>

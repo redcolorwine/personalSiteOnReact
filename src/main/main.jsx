@@ -6,6 +6,8 @@ import logojquery from '../media/images/kisspng-blue-symbol-sphere-logo-jquery-5
 import logoreact from '../media/images/reactblue.png'
 import logoredux from '../media/images/redux.png'
 const Main = (props) => {
+    // Главная страница приложения
+    // с стеком технологий, которые я практикую и постоянно изучаю
     return (
         <div className={cmedia.main}>
             <div className={cmedia.myLogo}>

@@ -2,6 +2,9 @@ import { NavLink } from 'react-router-dom';
 import cmedia from './header.module.css'
 
 const Header = (props) => {
+    // Навигационное меню приложения. Реализовано при помощи NavLink 
+    // который добавит в адресную строку нужные данные, 
+    // которые в последующем попадут в Routes
     return (
         <div className={cmedia.header}>
             <ul className={cmedia.navmenu}>
